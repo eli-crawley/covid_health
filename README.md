@@ -52,6 +52,14 @@ jupyter notebook
 
 Select the notebook you want to run and execute the cells in order.
 
+## Team Members 
+
+William Robertson, 
+Sandra Salazar, 
+Lance Cannon, 
+Eli Crawley, 
+Luke Roberts
+
 ## Data Sources
 
 Vaccine Adverse Event Reporting System. 2024. VAERS 
