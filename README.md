@@ -1,6 +1,15 @@
-# Data Analysis Notebooks  
+# README: Adverse Reaction Analysis Bootcamp
 
-This repository contains Jupyter notebooks for various data analyses related  adverse reactions to the COVID-19 vaccines. The analysis covers different demographic factors such as age, gender, location, and vaccine manufacturer data. The goal is to derive insights from the VAERS dataset and contribute to a better understanding vaccine-related trends. 
+## Table of Contents
+- [Introduction](#introduction)
+- [Age Analysis](#1-age-analysis)
+- [Vaccine Manufacturer Analysis](#2-vaccine-manufacturer-analysis)
+- [Location Analysis](#3-location-analysis)
+- [Gender Analysis](#4-gender-analysis)
+- [Summation](#summation)
+
+## Introduction
+This project analyzes adverse reactions to vaccines using a dataset that includes patient demographics, vaccine manufacturers, geographic distribution, and gender-based reactions. The analysis aims to identify trends in adverse reactions and fatalities associated with vaccinations.
 
 ## Objective
 
