@@ -27,7 +27,7 @@ Each section includes data processing, statistical analysis, and visual represen
 - Graphics:
   - ![Adverse Reactions by Age](Images/reaction_by_age_graph.png)
   - ![Death Count by Age](Images/death_by_age_graph.png)
-  - ![Death Percentage by Age](Images/death_percentage_by_age_graph.png)
+  - ![Death Percentage by Age](Images/death_percent_by_age_graph.png)
 
 ### 2. Vaccine Manufacturer Analysis
 - Findings:
