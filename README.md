@@ -1,4 +1,7 @@
-# README: Adverse Reaction Analysis Bootcamp
+# Covid Vaccine Adverse Reaction Analysis 2020-2024
+
+## Introduction
+This project analyzes adverse reactions to vaccines using a dataset that includes patient demographics, vaccine manufacturers, geographic distribution, and gender-based reactions. The analysis aims to identify trends in adverse reactions and fatalities associated with vaccinations.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -7,9 +10,7 @@
 - [Location Analysis](#3-location-analysis)
 - [Gender Analysis](#4-gender-analysis)
 - [Summation](#summation)
-
-## Introduction
-This project analyzes adverse reactions to vaccines using a dataset that includes patient demographics, vaccine manufacturers, geographic distribution, and gender-based reactions. The analysis aims to identify trends in adverse reactions and fatalities associated with vaccinations.
+  
 
 The code is structured into four main areas:
 1. **Age Analysis** - Examines the distribution of adverse reactions and deaths by age group.
