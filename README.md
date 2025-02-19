@@ -12,60 +12,62 @@ This project analyzes adverse reactions to vaccines using a dataset that include
 - [Summation](#summation)
   
 
-## Objective
+The code is structured into four main areas:
+1. **Age Analysis** - Examines the distribution of adverse reactions and deaths by age group.
+2. **Vaccine Manufacturer Analysis** - Compares adverse reactions and deaths across different vaccine manufacturers.
+3. **Location Analysis** - Evaluates state-wise distribution of adverse reactions.
+4. **Gender Analysis** - Analyzes how adverse reactions and deaths differ by gender.
 
-1. Determine the impact vaccines have on males and females. 
+Each section includes data processing, statistical analysis, and visual representations to summarize findings effectively.
 
-2. Establish if any states have a higher risk of an adverse or death event.
+### 1. Age Analysis
+- Findings:
+  - Adverse reactions were analyzed by age group.
+  - Death rates were calculated for each age range.
+  - A percentage-based comparison of deaths against adverse reactions was conducted.
+- Graphics:
+  - ![Adverse Reactions by Age](Images/reaction_by_age_graph.png)
+  - ![Death Count by Age](Images/death_by_age_graph.png)
+  - ![Death Percentage by Age](Images/death_percentage_by_age_graph.png)
 
-3. Learn which, if any, vaccine manufacturer has a higher risk for an adverse or death event. 
+### 2. Vaccine Manufacturer Analysis
+- Findings:
+  - Vaccine manufacturers were compared based on adverse reaction rates.
+  - Total vaccines administered vs. adverse reactions were analyzed.
+  - Unknown case percentages were computed per manufacturer.
+- Graphics:
+  - ![Adverse Reactions by Manufacturer](Images/adverse_reactions_death_number.png)
 
-4. Discover trends on an age basis and determine which groups are more at risk. 
+### 3. Location Analysis
+- Findings:
+  - State-wise distribution of adverse reactions was assessed.
+  - Age-group distribution by state was mapped.
+  - Special focus was given to Mississippi's adverse reaction distribution.
+- Graphics:
+  - ![State-wise Adverse Reactions](Images/state_bar_chart.png)
 
-## Notebooks  
+### 4. Gender Analysis
+- Findings:
+  - Adverse reactions were analyzed for males, females, and unknown gender.
+  - Death rates by gender were calculated and compared.
+- Graphics:
+  - ![Gender-based Adverse Reactions](Images/gender_distribution.png)
+  - ![Gender-specific Death Rate](Images/gender_death_rate.png)
 
-1. **Gender Analysis (`gender_analysis.ipynb`)**  
-   - Examines the gender distribution in the data.  
-   - Includes visualizations and insights based on gender-based data.
+## Summation
+This study presents a comprehensive analysis of vaccine adverse reactions based on **age, manufacturer, location, and gender**. The key takeaways include:
+- Higher adverse reaction rates were observed in older age groups.
+- There was no difference in reaction rates between differenct vaccine manufactures.
+- State distributions varied significantly depending on state population.
+- Gender-based differences in adverse reactions and death rates were identified. Females were more likely to experience adverse reaction, however men were more likely to die from adverse reactions.
 
+By utilizing statistical analysis and visual storytelling, this project provides valuable insights into vaccine safety and adverse reaction trends. The findings can help inform public health policies and vaccine administration strategies.
 
-![Gender Image](./Images/gender_distribution.png)
-![Death Image](./Images/gender_death_rate.png)
+This README serves as a guide for bootcamp participants to navigate the dataset and analysis workflow effectively.
 
+## Technologies Used 
 
-2. **Location Analysis (`location_analysis.ipynb`)**  
-   - Analyzes geographical data and trends.  
-   - Includes visualizations and insights based on location-based data.
-
-3. **Vaccine Manufacturer Analysis (`vac_manu_analysis.ipynb`)**  
-   - Evaluates data related to vaccine manufacturers.  
-   - Compares production, distribution, and other relevant metrics.  
-
-4. **Age Analysis (`age_analysis.ipynb`)**  
-   - Examines age distribution data.  
-   - Identifies trends and patterns across different age groups.  
-
-## Dataset
-
-VAERSDATA1 (3).csv – The primary dataset containing vaccine adverse event data, sourced from VAERS (Vaccine Adverse Event Reporting System). 
-
-## Requirements  
-
-Ensure you have the following dependencies installed before running the notebooks:  
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-## Usage
-
-Open the notebooks using Jupyter"
-
-```bash
-jupyter notebook
-```
-
-Select the notebook you want to run and execute the cells in order.
+Python (pandas, pathlib/path), Junyper Notebook, csv file
 
 ## Team Members 
 
